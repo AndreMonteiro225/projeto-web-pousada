@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+/* estilos reutilizados */
+
+.limitar-secao{
+    margin: 0 15vw;
+}
+
+.subtitulo-quartos {
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    text-align: center;
+    font-size: 23px;
+    
+}
+
+.imagem-quartos-size {
+    display: flex;
+    gap: 5px;
+}
+
+.imagem-quartos-size img {
+    width: calc(100vw / 4);
+}
+
+.subtitulo-listas {
+    margin: 7vh 0 4vh 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.lista-sobre-quarto {
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* topo */
+.topo {
+    width: 100vw;
+    background-color: white;
+    z-index: 1;
+    position:fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5vw;
+}
+
+ .topo span {
+    color: blue;
+}
+
+.topo p {
+    margin-left: 15vw;
+    font-size: 32px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.container-topo {
+    padding: 2px;
+    margin: 4px 15vw 0 0;
+}
+
+.container-topo a {
+    padding: 15px;
+    color:black;
+    text-decoration: none;
+}
+
+/* banner */
+.banner {
+    height: 24vh;
+    background-image: url("../assets/img-fundo.jpg");
+    background-attachment: fixed;
+}
+
+/* quartos de solteiro */
+.secao-solteiro {
+    text-align: center;
+}
+
+.secao-solteiro h3 {
+    font-weight: normal;
+}
+
+.secao-solteiro p {
+    margin: 2vh 0 6vh 0;
+}
+
+
+
+/* quartos casal */
+.secao-casal h3 {
+    font-weight: normal;
+}
+
+.secao-casal p {
+    margin: 2vh 0 6vh 0;
+}
+
+/* rodape */
+.secao-rodape {
+    background-color: #49997c;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5vw;
+    gap: 2vw;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.container-rodape-icones {
+    gap: 1vw;
+    display: flex;
+    align-items: center;
+}
+
+.container-rodape-icones a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-rodape-icones p {
+    width: 10vw;
+    font-size: 17px
+}
+
+.secao-rodape h4 {
+    width: 10vw;
+}
+
+.copyright{
+    background-color: #49997c;
+    text-align: center;
+    color: white;
+    padding: 2vh;
+}
